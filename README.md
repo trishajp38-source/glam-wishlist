@@ -77,7 +77,7 @@ Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/c
 This is a simple wishlist app built using low-code + database.  
 Users can add items they want to buy and store them online.
 
-## Database Schema (Part 1)
+## Database Schema 
 The schema was generated using an LLM and includes:
 - item_name (string)
 - item_url (string)
@@ -85,6 +85,6 @@ The schema was generated using an LLM and includes:
 - created_at (timestamp)
 
 ## Division of Work
-- Student 1 (Friend): Completed Part 1 (LLM schema) and Part 2 (Prototype)
-- Student 2 (Me): Completing Part 3, Part 4, and Part 5 (Git workflow, merge conflict, final testing)
+- Student 1 : Completed Part 1 (LLM schema) and Part 2 (Prototype)
+- Student 2 : Completing Part 3, Part 4, and Part 5 (Git workflow, merge conflict, final testing)
 
