@@ -71,3 +71,20 @@ Yes, you can!
 To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
 Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+# Glam Wishlist App
+
+## Project Summary
+This is a simple wishlist app built using low-code + database.  
+Users can add items they want to buy and store them online.
+
+## Database Schema (Part 1)
+The schema was generated using an LLM and includes:
+- item_name (string)
+- item_url (string)
+- item_price (number)
+- created_at (timestamp)
+
+## Division of Work
+- Student 1 (Friend): Completed Part 1 (LLM schema) and Part 2 (Prototype)
+- Student 2 (Me): Completing Part 3, Part 4, and Part 5 (Git workflow, merge conflict, final testing)
+
