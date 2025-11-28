@@ -1,90 +1,74 @@
-# Welcome to your Lovable project
+# 🌸 Glam-Wishlist 💖
+*A pastel-themed fashion wishlist application built using Vite, React, Tailwind & shadcn-ui.*
 
-## Project info
+---
 
-**URL**: https://lovable.dev/projects/3eb7f66c-2891-45ba-8bb0-e05b1bf2814f
+## 📌 1. Project Overview
+**Glam-Wishlist** is a cute, aesthetic fashion wishlist web application where users can store stylish items they plan to buy — dresses, makeup, shoes, accessories, and more! 👗💄👠✨  
+Built using modern frontend tools and connected to a cloud database via Lovable.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🔗 2. Project URL
+👉 **Live Project on Lovable:**  
+https://lovable.dev/projects/3eb7f66c-2891-45ba-8bb0-e05b1bf2814f
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/3eb7f66c-2891-45ba-8bb0-e05b1bf2814f) and start prompting.
+## ✨ 3. Features
+- 💖 Add wishlist items  
+- 📝 Store item name, price, product link & timestamp  
+- 👗 Aesthetic UI with pastel theme  
+- 🌸 Smooth card-based layout  
+- 🗂️ Database-backed wishlist storage  
+- 🔄 Instant updates through Lovable  
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## 🛍️ 4. Database Schema
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+| 🌸 Field       | 📝 Type     | 💬 Description |
+|----------------|-------------|----------------|
+| `item_name`    | string      | Name of the fashion item 👗 |
+| `item_url`     | string      | Shopping/product link 🔗 |
+| `item_price`   | number      | Price of the item 💸 |
+| `created_at`   | timestamp   | Time when item was added 🕒 |
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Schema generated using an LLM as part of **Part 1**.
 
-Follow these steps:
+---
 
+## 🧰 5. Tech Stack Used
+- ⚡ **Vite**  
+- ⚛️ **React + TypeScript**  
+- 🎀 **Tailwind CSS**  
+- 🪞 **shadcn-ui Components**  
+- 💜 **Lovable Low-Code Platform**  
+- 🗄️ **Database Integration**  
+
+---
+
+## 🛠️ 6. How to Edit Glam-Wishlist
+
+### 🎀 6.1 Edit Using Lovable (Recommended)
+Open the project directly on Lovable:  
+👉 https://lovable.dev/projects/3eb7f66c-2891-45ba-8bb0-e05b1bf2814f  
+You can modify UI, logic, styling, and components easily through prompts.
+
+---
+
+### 💻 6.2 Edit Locally in VS Code
+
+#### 🧁 Steps:
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
+# Step 1: Clone your Glam-Wishlist repository
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Step 2: Move into the project folder
+cd glam-wishlist
 
-# Step 3: Install the necessary dependencies.
+# Step 3: Install required dependencies
 npm i
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Step 4: Start development server
 npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/3eb7f66c-2891-45ba-8bb0-e05b1bf2814f) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
-# Glam Wishlist App
-
-## Project Summary
-This is a simple wishlist app built using low-code + database.  
-Users can add items they want to buy and store them online.
-
-## Database Schema 
-The schema was generated using an LLM and includes:
-- item_name (string)
-- item_url (string)
-- item_price (number)
-- created_at (timestamp)
-
-## Division of Work
-- Student 1 : Completed Part 1 (LLM schema) and Part 2 (Prototype)
-- Student 2 : Completing Part 3, Part 4, and Part 5 (Git workflow, merge conflict, final testing)
-
